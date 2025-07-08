@@ -1,0 +1,57 @@
+header h1{
+  color: rgb(246, 245, 243);
+  text-align: center;
+  font-size: 40px;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 200px;
+  width: cover;
+}
+
+.weather {
+  color: rgb(237, 237, 235);
+  font-size: 25px;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+  border: 2px solid rgb(255, 247, 10);
+  border-radius: 6px;
+
+}
+
+
+.mission-report {
+  color: rgb(248, 248, 245);
+  text-align: center;
+  font-size: 25px;
+  grid-column: 4 / 5;
+  grid-row: 1;
+  border: 2px solid rgb(255, 247, 10);
+  border-radius: 6px;
+
+}
+.tools{
+  text-align: center;
+  font-size: 25px;
+  color:rgb(246, 246, 245);
+  grid-column: 3;
+  grid-row: 1;
+  border: 2px solid rgb(255, 247, 10);
+  border-radius: 6px;
+}
+.tools:hover{
+  background-color: black;
+}
+
+body{
+  background-color: black;
+  background-image: url('https://videos.openai.com/vg-assets/assets%2Ftask_01jzn09ckqfcys8p7jz7k7xhhk%2F1751978003_img_1.webp?st=2025-07-08T10%3A56%3A51Z&se=2025-07-14T11%3A56%3A51Z&sks=b&skt=2025-07-08T10%3A56%3A51Z&ske=2025-07-14T11%3A56%3A51Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=3d249c53-07fa-4ba4-9b65-0bf8eb4ea46a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=D%2BOe94OkO1GYCaA%2BEkbmzKbQ8%2BmwxF2hVN6P%2Bjjz0HU%3D&az=oaivgprodscus');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+
+}
